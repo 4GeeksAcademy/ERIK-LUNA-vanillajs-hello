@@ -1,0 +1,15 @@
+div.container {
+  background-color: aquamarine;
+  width: 80%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.seccion {
+  width: 600px;
+  height: 100px;
+  border: 2px solid;
+  padding: 20px;
+  margin-bottom: 20px;
+}
