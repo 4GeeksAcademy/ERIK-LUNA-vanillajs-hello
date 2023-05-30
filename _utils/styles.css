@@ -1,15 +1,56 @@
-div.container {
-  background-color: aquamarine;
-  width: 80%;
-  height: 80%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: grid;
 }
-.seccion {
-  width: 600px;
-  height: 100px;
-  border: 2px solid;
+.myButton {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.row {
+  background-color: palevioletred;
   padding: 20px;
-  margin-bottom: 20px;
+  width: 500px;
+  height: auto;
+  color: aliceblue;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.row2 {
+  padding: 20px;
+  width: 500px;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#id p {
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
 }
